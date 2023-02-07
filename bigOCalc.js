@@ -86,15 +86,12 @@ function evalToBigOChar(eval) {
     if(eval === "lin") {
         return "N";
     }
-
     else if(eval === 'log') {
         return "L";
-    }
-    
+    } 
     else if(eval === "const") {
         return "O";
     }
-
     else {
         return "E";
     }
@@ -104,8 +101,8 @@ function evalToBigOChar(eval) {
 function translateBigOStringToBigO(bigOString) {
     var nCount = 0;
     var lCount = 0;
-
-    for(var i = 0; i < bigOString.length; i++) {
+    var i =0;
+    for( i = 0; i < bigOString.length; i++) {
         var c = bigOString[i];
         if (c === 'N') {
             nCount++;
