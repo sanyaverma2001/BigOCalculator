@@ -1,2 +1,3 @@
 # BigOCalculator
-this is for calculating the time of complexity of the code
+this is for calculating the time complexity of the code
+
